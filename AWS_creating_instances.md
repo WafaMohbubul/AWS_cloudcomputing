@@ -7,7 +7,7 @@
 4. Log into AWS using link and credentials provided
 5. It should be directed to the homepage as shown below. Ensure the server is set to **IRELAND**
 
-![](C:\Users\wafam\Documents\Tech_254\AWS_&_CloudComputing\homepage_ss.png)
+![](homepage_ss.png)
 
 6. Search for **EC2** on search bar and click into it. Following page should appear
 
@@ -41,7 +41,8 @@ Following webpage should appear.
 21. Configure Storage should be set to default **8 GiB**
     
 22. Read over the summary to match the following details and click **Launch Instance**
-    ![](C:\Users\wafam\Documents\Tech_254\AWS_&_CloudComputing\launch_instances.png)
+
+![](C:\Users\wafam\Documents\Tech_254\AWS_&_CloudComputing\launch_instances.png)
 
 24. Click on **Connect** on top right 
 23. Open GitBash Terminal 
