@@ -41,7 +41,7 @@ Following webpage should appear.
 21. Configure Storage should be set to default **8 GiB**
     
 22. Read over the summary to match the following details and click **Launch Instance**
-![](C:\Users\wafam\Documents\Tech_254\AWS_&_CloudComputing\launch_instances.png)
+    ![](C:\Users\wafam\Documents\Tech_254\AWS_&_CloudComputing\launch_instances.png)
 
 24. Click on **Connect** on top right 
 23. Open GitBash Terminal 
@@ -50,7 +50,9 @@ Following webpage should appear.
 25. Copy and paste `ssh -i "tech254.pem" ubuntu@ec2-34-244-108-192.eu-west-1.compute.amazonaws.com` to the terminal 
 26. Type `yes` if you are asked to continue 
 27. Type `sudo apt update` in the terminal
-26. Type `sudo apt upgrade -y` in the terminal. This will take a while to complete. 
+26. Type `sudo apt upgrade -y` in the terminal. This will take a while to complete.
+27. Type `sudo apt install nginx -y`
+
 
 
 
