@@ -11,17 +11,17 @@
 
 6. Search for **EC2** on search bar and click into it. Following page should appear
 
-![](C:\Users\wafam\Documents\Tech_254\AWS_&_CloudComputing\instances_homepage.png)
+![](instances_homepage.png)
 
 7. Click **Launch Instances** (in the orange button)
 
 8. On the 'Launch an Instance' page, Under the ''Name and Tags' section, type `tech254_wafa_nginx`
-![](C:\Users\wafam\Documents\Tech_254\AWS_&_CloudComputing\instance_name.png)
+![](instance_name.png)
 
 9. Scroll to next section, **'Application and OS Images (Amazon Machine Image'** and select `Browse more AMIs`
 Following webpage should appear.
 
-![](C:\Users\wafam\Documents\Tech_254\AWS_&_CloudComputing\browse_AMIs.png)
+![](browse_AMIs.png)
 10. Click on Community AMIs on the tabs at the top
 
 11. Search for `18.04 lts 1e9`. Select the **Ubuntu verified server**.
@@ -36,13 +36,13 @@ Following webpage should appear.
 17. Copy and paste this into the description
 18. Scroll down to **Inbound security group rules**
 19. By default, SSH will already be added. Add **HTTP** and **HTTPS** as shown below. They should all be set to **Anywhere**
-![](C:\Users\wafam\Documents\Tech_254\AWS_&_CloudComputing\secuirty_group_rules.png)
+![](secuirty_group_rules.png)
 
 21. Configure Storage should be set to default **8 GiB**
     
 22. Read over the summary to match the following details and click **Launch Instance**
 
-![](C:\Users\wafam\Documents\Tech_254\AWS_&_CloudComputing\launch_instances.png)
+![](launch_instances.png)
 
 24. Click on **Connect** on top right 
 23. Open GitBash Terminal 
