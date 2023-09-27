@@ -36,9 +36,14 @@ Following webpage should appear.
 17. Copy and paste this into the description
 18. Scroll down to **Inbound security group rules**
 19. By default, SSH will already be added. Add **HTTP** and **HTTPS** as shown below. They should all be set to **Anywhere**
-20. Configure Storage should be set to default **8 GiB**
-21. Read over the summary to match the following details and click **Launch Instance**
-22. Click on **Connect** on top right 
+![](C:\Users\wafam\Documents\Tech_254\AWS_&_CloudComputing\secuirty_group_rules.png)
+
+21. Configure Storage should be set to default **8 GiB**
+    
+22. Read over the summary to match the following details and click **Launch Instance**
+![](C:\Users\wafam\Documents\Tech_254\AWS_&_CloudComputing\launch_instances.png)
+
+24. Click on **Connect** on top right 
 23. Open GitBash Terminal 
 23. type `cd .ssh` to go into the file
 24. copy and paste the command `chmod 400 tech254.pem`
